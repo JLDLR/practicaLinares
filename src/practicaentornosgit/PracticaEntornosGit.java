@@ -28,6 +28,11 @@ public class PracticaEntornosGit {
         System.out.format("%d * %d = %d\n", a, b, a * b);
         System.out.format("%d / %d = %.2f\n", a, b, (double) a / b);
         // hola soy Alberto
+        //¡Hola Alberto!
+        System.out.format(".data\n texto: .asciiz \"Hola Mundo!\"\n");
+        System.out.println("La verdad es que Logo es un buen lenguaje y"
+                + " extremadamente útil en mi futuro laboral.");
+        
     }
 
 }
