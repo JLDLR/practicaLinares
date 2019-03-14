@@ -1,23 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practicaentornosgit;
 
 import java.util.Scanner;
-
+import java.math.*;
 /**
  *
  * @author MEDION-JLLR
+ * @author ALBERHANIBAL
  */
 public class PracticaEntornosGit {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         System.out.println("¡Hola mundo!");
         Scanner in = new Scanner(System.in);
         System.out.println("Introduce dos enteros:");
@@ -28,6 +21,9 @@ public class PracticaEntornosGit {
         System.out.format("%d * %d = %d\n", a, b, a * b);
         System.out.format("%d / %d = %.2f\n", a, b, (double) a / b);
         // hola soy Alberto
+        //¡Hola Alberto!
+        System.out.println(Math.PI);
+        System.out.println("Logo es mejor lenguaje que Python, C#, Java y Ensamblador.");
     }
 
 }
